@@ -35,7 +35,7 @@ public class tanzendeSchrift extends JComponent implements Runnable {
     public void paint(Graphics g) {
 
         g.setColor(randomColor());
-        g.setFont(new Font("Comic Sans MS", Font.BOLD, 30));
+        g.setFont(new Font("Comic Sans MS", Font.BOLD, 35));
         g.drawString("L", 40, 120-((int)(Math.random()*50)));
         g.setColor(randomColor());
         g.drawString("O", 60, 120-((int)(Math.random()*50)));
